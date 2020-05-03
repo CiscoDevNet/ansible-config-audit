@@ -1,0 +1,13 @@
+---
+- name: Check if devices match the Gold config
+  hosts: xetest
+  gather_facts: no
+
+  tasks:
+  - name: Check gold config status
+    cisco.ios.ios_config:
+      lines:
+        - clock timezone PST -8 0
+    when: ansible_network_os == 'ios'
+    check_mode: yes
+
