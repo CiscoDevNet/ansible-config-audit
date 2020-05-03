@@ -2,5 +2,9 @@ ansible_connection: network_cli
 ansible_network_os: ios
 ansible_user: "{{username}}"
 ansible_ssh_pass: "{{password}}"
+checkmode: yes
 
+domain_name: virl.info 
+#domain_search: mylab.cisco.com
+domain_search: "{{domain_name}}"
 
