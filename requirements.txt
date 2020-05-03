@@ -1,0 +1,3 @@
+ansible==2.9.7
+scp
+netaddr
