@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git clone https://github.com/securenetwrk/gold_config.git
 cd gold_config
 pip install -r requirements.txt

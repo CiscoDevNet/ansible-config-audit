@@ -1,6 +1,6 @@
 ---
 - name: Check if devices match the Gold config
-  hosts: xetest
+  hosts: lab
   gather_facts: no
 
   roles: 
