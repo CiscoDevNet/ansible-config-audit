@@ -1,0 +1,11 @@
+checkmode: yes
+
+domain_name: virl.info 
+domain_search: "{{domain_name}}"
+
+ntp_servers: 
+  - 8.8.8.8
+  - 1.1.1.1
+log_servers:
+  - 1.1.1.1
+  - 1.1.1.2
