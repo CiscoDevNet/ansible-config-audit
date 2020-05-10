@@ -1,0 +1,50 @@
+[all:vars]
+ansible_python_interpreter="/usr/bin/env python"
+
+[localhost]
+127.0.0.1 
+
+[xetest]
+10.10.20.175 username=cisco password=cisco
+
+[lab:children]
+xe
+nx
+
+[asa]
+10.10.20.171 username=cisco password=cisco
+
+
+[xr:children]
+xr_core
+
+[xr_core]
+10.10.20.173 username=cisco password=cisco
+10.10.20.174 username=cisco password=cisco
+
+
+[xe:children]
+xe_dist
+
+[temp:children]
+xe_internet
+xe_dist
+xe_switch
+
+[xe_internet]
+10.10.20.181 username=cisco password=cisco
+
+[xe_dist]
+10.10.20.175 username=cisco password=cisco
+#10.10.20.176 username=cisco password=cisco
+
+[xe_switch]
+10.10.20.172 username=cisco password=cisco
+
+
+[nx:children]
+nx_switch
+
+[nx_switch]
+10.10.20.177 username=cisco password=cisco
+#10.10.20.178 username=cisco password=cisco

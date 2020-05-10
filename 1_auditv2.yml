@@ -4,5 +4,6 @@
   gather_facts: no
 
   roles: 
-    - gold_config
+    - securenetwrk.gold_config
+#    - gold_config
 
