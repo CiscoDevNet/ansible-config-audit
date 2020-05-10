@@ -13,7 +13,7 @@
       domain_search: "{{ domain_search }}"
 
   - name: Check gold config status
-    check_mode: {{ checkmode }}
+    check_mode: "{{ checkmode }}"
     when: ansible_network_os == 'ios'
     cisco.ios.ios_config:
       lines:

@@ -1,3 +1,7 @@
+ansible_connection: network_cli
+ansible_user: "{{username}}"
+ansible_ssh_pass: "{{password}}"
+
 checkmode: yes
 
 domain_name: virl.info 
