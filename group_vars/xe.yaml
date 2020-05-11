@@ -1,2 +1,9 @@
 ansible_network_os: ios
 
+local_users_full:
+  - name: cisco
+    privilege: 15
+    configured_password: "cisco"
+  - name: admin2
+    privilege: 15
+    configured_password: "cisco"
