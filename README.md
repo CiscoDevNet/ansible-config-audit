@@ -1,4 +1,4 @@
-# Gold Config Audit and Enforcement
+# Ansible Config Audit and Enforcement
 Code to audit and enforce a gold standard config across a range of devices
 
 # Objective 
