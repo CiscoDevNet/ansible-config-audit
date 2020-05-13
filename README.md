@@ -10,7 +10,7 @@ To use this code you will need:
 
 * Python 3.6+
 
-Optionally, this code can be run as in in a [DevNet Cisco Modeling Labs sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology)
+Optionally, this code can be run as is in a [DevNet Cisco Modeling Labs sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology)
 
 With the above sandbox, you instead will need:
 * A Cisco VPN client
