@@ -1,24 +1,9 @@
 ---
 - name: Check if devices match the Gold config
-  hosts: xetest
+  hosts: lab
   gather_facts: no
 
-  tasks:
-  - name: System settings
-    check_mode: "{{ checkmode }}"
-    when: ansible_network_os == 'ios'
-    cisco.ios.ios_system:
-      domain_name: "{{ domain_name }}"
-      lookup_enabled: no
-      domain_search: "{{ domain_search }}"
-
-  - name: Check gold config status
-    check_mode: "{{ checkmode }}"
-    when: ansible_network_os == 'ios'
-    cisco.ios.ios_config:
-      lines:
-        - clock timezone PST -8 0
-        - clock summer-time PDT recurring
-        - service timestamps debug datetime msec localtime show-timezone
-        - service timestamps log datetime msec localtime show-timezone
+  roles: 
+    - securenetwrk.gold_config
+#    - gold_config
 

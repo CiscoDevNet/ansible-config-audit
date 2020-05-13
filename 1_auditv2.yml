@@ -1,9 +1,0 @@
----
-- name: Check if devices match the Gold config
-  hosts: lab
-  gather_facts: no
-
-  roles: 
-    - securenetwrk.gold_config
-#    - gold_config
-
