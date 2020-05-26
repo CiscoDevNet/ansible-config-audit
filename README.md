@@ -13,8 +13,8 @@ To use this code you will need:
 Optionally, this code can be run as is in a [DevNet Cisco Modeling Labs sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology)
 
 With the above sandbox, you instead will need:
-* A Cisco VPN client
-* An SSH client
+* Cisco VPN client - [Setup instructions here](https://developer.cisco.com/site/sandbox/anyconnect/)
+* SSH client - Using Mac/Linux directly use the OS native SSH client. For connecting using an SSH client such as [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 # Install and Setup
 
