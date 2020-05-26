@@ -18,7 +18,7 @@ With the above sandbox, you instead will need:
 
 # Install and Setup
 
-1. Reserve a Cisco Modeling Labs sandbox at https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology
+1. Reserve a Cisco Modeling Labs sandbox at [DevNet Cisco Modeling Labs sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/685f774a-a5d6-4df5-a324-3774217d0e6b?diagramType=Topology)
 1. Once it is ready, click on the "Output" button, and use the VPN credentials to connect with AnyConnect or OpenConnect
 1. SSH to 10.10.20.50 as the developer user with password C1sco12345
 1. Execute the following to download pre-requisites: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/CiscoDevNet/ansible-config-audit/master/setup.sh)"`
