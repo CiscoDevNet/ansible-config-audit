@@ -1,6 +1,5 @@
 ---
 collections:
-# With just the collection name
   - name: cisco.ios
     version: 0.0.2
     source: https://galaxy.ansible.com
@@ -13,9 +12,5 @@ collections:
   - name: cisco.iosxr
     version: 0.0.2
     source: https://galaxy.ansible.com
-#  - name: cisco.aci
-#    version: 0.0.6
-#    source: https://galaxy.ansible.com
-
-
-
+roles:
+  - name: securenetwrk.gold_config
